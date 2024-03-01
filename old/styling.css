@@ -1,0 +1,40 @@
+/* CSS rulesets for elements by type */
+body{
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color:#d613d6;
+}
+
+p {
+    color:#348412;
+}
+
+div {
+    background-color: #faebd7;
+}
+
+
+
+/* CSS ruleset targeting an element by its ID */
+#boldSpan{
+    font-weight: bold;
+}
+
+/* CSS Class that can be used for multiple elements */
+.specialParagraph{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bigBox{
+    background-color: #f2bcaa;
+    display: flex;
+}
+
+.smallBox{
+    background-color: #daa520;
+    margin: 10px;
+    padding: 20px;
+}
